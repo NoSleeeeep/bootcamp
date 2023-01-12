@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin and Padding</title>
+    <style>
+        *{
+            font-family: 'Poppins';
+        }
+
+        div{
+            margin-left: 50px;
+        }
+
+        h1{
+            margin-left: inherit; /* INHERIT - copy the margin of the parent element*/
+        }
+
+        table, td, th{
+            border-bottom: 1px solid lightblue;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th{
+            border-bottom: 2px solid lightblue;
+            font-size: 20px;
+        }
+
+        tr:hover{
+            color: rebeccapurple;
+        }
+
+        table{
+            width: 90%;
+            margin: 20px auto 0 auto;
+        }
+
+        tr:nth-child(even){
+            background-color: #f2f2f2;
+        }
+
+        a{
+            color: hotpink;
+            text-decoration: none;
+        }
+        a:link{ /*Unvisited links*/
+            color: rebeccapurple;
+        }
+        a:hover{
+            color: lightblue;
+        }
+        a:visited{ /*Visited Links*/
+            color: lightgreen;
+        }
+        a:active{ /*Clicked links*/
+            color: black;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Tables</h1>
+    </div>
+
+    <!-- table -->
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Company</th>
+        </tr>
+        <tr>
+            <td>Onion</td>
+            <td>600 PHP</td>
+            <td>The Onion</td>
+        </tr>
+        <tr>
+            <td>Cheese</td>
+            <td>200 PHP</td>
+            <td>Tokyo Milk Cheese Factory</td>
+        </tr>
+        <tr>
+            <td>Pork</td>
+            <td>400 PHP</td>
+            <td>Smithfield Foods</td>
+        </tr>
+    </table>
+
+    <h1>Links</h1>
+    <a href="#">Click me UwU</a>
+</body>
+</html>

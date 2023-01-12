@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Tahoma';
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+}
+
+/* navigation */
+nav{
+    background-color: rgb(70, 130, 180);
+    height:50px;
+    text-align: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    line-height: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 0 6%;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(0, 0, 139);
+}
+
+
+.logo {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* content */
+.content {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.content h1 {
+    color: rgb(70, 130, 180);
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-weight: 600;
+}
+
+/* content - 2 */
+
+.try {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 90px 0;
+}
+
+.content-2 img {
+    width: 400px;
+    padding-right: 10px;
+}
+
+.text a:link{
+    color: blue;
+}
+
+.text a:visited{
+    color: orange;
+}
+
+.text a:hover {
+    color: magenta;
+}
+
+.text a:active{
+    color: lime;
+}
+
+.text {
+    padding-left: 10px;
+    width: 400px;
+}
+
+.text h1 {
+    color: rgb(70, 130, 180);
+    font-weight: 600;
+}
+
+.text p {
+    padding-bottom: 30px;
+}
+
+.text a {
+    color: rgb(255, 0, 216);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* content - 3 */
+.content-3 {
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-3 img {
+    width: 100px;
+}
+
+.text-2 table, 
+.text-2 th, 
+.text-2 td{
+    border: 2px dotted black;
+    border-collapse: collapse;
+    margin: 0 100px;
+}
+
+.text-2 tr:nth-child(odd) {
+    background-color: white;
+}
+
+.text-2 tr:nth-child(even){
+    background-color: lightgray;
+}
+
+.text-2 th:hover, .text-2 td:hover{
+    background-color: orange;
+}
+
+/* gallery */
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+div.gallery {
+    margin: 35px;
+    border: 2px solid #ccc;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+/* footer */
+footer {
+    clear: both;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    color: rgb(160, 160, 160);
+    font-size: 13px;
+}
+
+footer a {
+    color: rgb(160, 160, 160);
+}
+
+.footer {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    color: rgb(160, 160, 160);
+    font-size: 10px;
+}

@@ -1,0 +1,14 @@
+h1 {
+  color: #e54f4f;
+}
+
+p {
+  color: #e54f4f;
+}
+
+div h1 {
+  color: rgb(98, 203, 98);
+}
+div p {
+  background-color: rebeccapurple;
+}/*# sourceMappingURL=styles.css.map */

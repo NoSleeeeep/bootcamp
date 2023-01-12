@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bear Burger's - Order</title>
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+  <!-- nav start here -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" width="30px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Shop</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- nav end here -->
+
+<!-- content start here -->
+<div class="container vh-100">
+  <h1 class="display-1">Order Here</h1>
+  <div class="row">
+    <div class="col-7">
+      <table class="table table-bordered">
+        <thead class="dark-orange">
+          <tr>
+            <th>Icons</th>
+            <th>Item Name</th>
+            <th>Price</th>
+          </tr>
+          <tr  class="light-orange">
+            <th class="text-center" colspan="3">Meals</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="hover">
+            <td><img src="img/Burger.png" alt="Transparent Burger"></td>
+            <td>Burger</td>
+            <td>₱55.00</td>
+          </tr>
+          <tr  class="hover">
+            <td><img src="img/Fried-Chicken.png" alt="Transparent Fried Chicken"></td>
+            <td>Fried Chicken</td>
+            <td>₱55.00</td>
+          </tr>
+          <tr class="hover">
+            <td><img src="img/spaghetti.png" alt="Transparent Spaghetti"></td>
+            <td>Spaghetti</td>
+            <td>₱55.00</td>
+          </tr>
+          <tr class="hover">
+            <td><img src="img/pizza.png" alt="Transparent Pizza"></td>
+            <td>Pizza</td>
+            <td>₱150.00</td>
+          </tr>
+          <tr class="light-orange">
+            <th class="text-center" colspan="3">Drinks</th>
+          </tr>
+          <tr class="hover">
+            <td><img src="img/coke.png" alt="Transparent Coke"></td>
+            <td>Coke</td>
+            <td>₱20.00</td>
+          </tr>
+          <tr class="hover">
+            <td><img src="img/sprite.png" alt="Transparent Sprite"></td>
+            <td>Sprite</td>
+            <td>₱20.00</td>
+          </tr>
+          <tr class="hover">
+            <td><img src="img/sarsi.png" alt="Transparent Sarsi"></td>
+            <td>Sarsi</td>
+            <td>₱20.00</td>
+          </tr>
+          <tr>
+            <th style="background-color: rgb(250, 238, 216);" rowspan="2" colspan="2" class="fw-normal">All items are subject to tax. No refunds. All items are not transferrable</th>
+            <td class="hover">Extra rice - ₱20.00</td>
+          </tr>
+          <tr>
+            <td class="hover">Condiments - ₱20.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-5 basil text-end">
+      <img src="img/basil-sauce.png" alt="" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-black">
+  <div class="container vh-100 text-light">
+    <h2 class="display-2 pt-5">Tell Us What You Think!</h2>
+    <div class="row">
+      <div class="col-6">
+        <img src="img/burger-ingredients-floating.jpg" alt="Floating Burger" class="img-fluid mt-5">
+      </div>
+      <div class="col-6">
+        <form>
+          <div class="form-group">
+            <label for="InputName">Name (optional):</label>
+            <input type="text" class="form-control">
+            <label for="InputProvince">Province (optional):</label>
+            <input type="text" class="form-control">
+
+            <label class="mt-5">How many times have you went to our Restaurant?</label> <br>
+            <input class="form-check-input" type="radio" name="radio" >
+            <label>This is the first time!</label> <br>
+            <input class="form-check-input" type="radio" name="radio" >
+            <label>Second time</label> <br>
+            <input class="form-check-input" type="radio" name="radio">
+            <label>Third time or more</label> <br>
+
+            <label class="mt-5">How would you rate the food (use the star emoji ⭐)?</label> <br>
+            <input class="form-check-input" type="radio" name="radio">
+            <label>⭐</label>
+            <input class="form-check-input" type="radio" name="radio">
+            <label>⭐⭐</label>
+            <input class="form-check-input" type="radio" name="radio">
+            <label>⭐⭐⭐</label>
+            <input class="form-check-input" type="radio" name="radio">
+            <label>⭐⭐⭐⭐</label>
+            <input class="form-check-input" type="radio" name="radio">
+            <label>⭐⭐⭐⭐⭐</label>
+
+            <label class="mt-5">How would you rate the services (use the ⭐ emoji)?</label> <br>
+            <input class="form-check-input" type="radio" name="radio">
+            <label>⭐</label>
+            <input class="form-check-input" type="radio" name="radio">
+            <label>⭐⭐</label>
+            <input class="form-check-input" type="radio" name="radio">
+            <label>⭐⭐⭐</label>
+            <input class="form-check-input" type="radio" name="radio">
+            <label>⭐⭐⭐⭐</label>
+            <input class="form-check-input" type="radio" name="radio">
+            <label>⭐⭐⭐⭐⭐</label><br>
+
+            <button class="btn btn-primary mt-5">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer start here -->
+<footer class="bg-black text-light">
+  <h3 class="display-3 mb-3 text-center">Let's get in touch</h3>
+  <div class="d-flex fs-4 justify-content-center">
+    <i class="fa-solid fa-envelope me-3 fs-2"></i>
+    <p>acegabriel0710@gmail.com</p>
+    <i class="fa-solid fa-phone mx-3 fs-2"></i>
+    <p>0908 710 5298</p>
+  </div>
+
+  <div class="d-flex mt-1 fs-4 justify-content-center">
+    <i class="fa-brands fa-facebook fs-2 mx-2"></i>
+    <i class="fa-brands fa-twitter fs-2 mx-2"></i>
+    <i class="fa-brands fa-instagram fs-2 mx-2"></i>
+    <i class="fa-brands fa-pinterest fs-2 mx-2"></i>
+    <i class="fa-brands fa-linkedin-in fs-2 mx-2"></i>
+    <i class="fa-brands fa-youtube fs-2 mx-2 mb-5"></i>
+  </div>
+</footer>
+<!-- footer end here -->
+
+  <!-- bootstrap js cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

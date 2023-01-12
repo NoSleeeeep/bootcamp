@@ -1,0 +1,38 @@
+
+/* colors */
+.dark-orange{
+  background-color: rgb(255, 200, 99);
+}
+
+.light-orange{
+  background-color: rgb(255, 229, 182);
+}
+
+.lighter-orange{
+  background-color: rgb(250, 238, 216);
+}
+
+table img{
+  width: 40px;
+}
+
+.basil img{
+  height: 580px;
+}
+
+.mt-n-2{
+  margin-top: -20px;
+}
+
+table tr th {
+  background-color: rebeccapurple;
+}
+
+.hover:hover {
+  background-color: orange;
+}
+
+.carousel-item img{
+  width: 100%;
+  height: 90vh;
+}

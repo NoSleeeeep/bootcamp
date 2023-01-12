@@ -1,0 +1,52 @@
+/*------------
+Custom styles
+------------*/
+.footer-a a{
+    color: rgb(160, 160, 160);
+}
+
+.margin-n-15{
+    margin-top: -15px;
+}
+
+.navigation{
+    background-color: rgb(70, 130, 180);
+}
+
+.logo{
+    width: 500px;
+}
+
+.verse{
+    width: 60%;
+}
+
+.style-inside li{
+    list-style-position: inside;
+}
+
+/* colors */
+.blue-rgb {
+    color: rgb(70, 130, 180);
+}
+
+.pink-rgb {
+    color: rgb(255, 0, 216);
+}
+
+.gray-rgb {
+    color: rgb(160, 160, 160);
+}
+
+/* width */
+.w-15 {
+    width: 15%;
+}
+
+.w-28 {
+    width: 28%;
+}
+
+.w-80 {
+    width: 80%;
+}

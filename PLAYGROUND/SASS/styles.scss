@@ -1,0 +1,24 @@
+// sass variables
+$themeColor1: #e54f4f;
+$themeColor2: rgb(98, 203, 98);
+$themeColor3: rgb(37, 136, 228);
+
+
+h1 {
+  color: $themeColor1;
+}
+
+p {
+  color: $themeColor1;
+}
+
+// nested scss
+div{
+  h1 {
+    color: $themeColor2;
+  }
+
+  p{
+    background-color: rebeccapurple;
+  }
+}
